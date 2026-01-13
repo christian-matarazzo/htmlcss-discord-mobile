@@ -13,15 +13,11 @@ body {
     
 }
 
-.banner {
-  width: 512px;
 
-  
-}
 
 .banner img {
 
-    width: 512px;
+    width: 100%;
 }
 
 .title {
@@ -70,12 +66,13 @@ p {
     padding: 2rem;
     margin-top: 4rem;
     border: solid;
-    background-color:#5d64d1;
+    /* background-color:#5d64d1; */
     margin-left: 1rem;
     margin-right: 1rem;
     border:none;
     min-height: 41rem;
-    position:relative
+    position:relative;
+    background-image:linear-gradient(#32368f,#5d64d1);
 }
 
 .postcards h2       {
@@ -102,11 +99,25 @@ p {
 
 }
 
+.postcards video{
 
-.images {
-width: 6rem;
-position:absolute;
-left: 2.5rem;
-bottom: 38.5rem;
-z-index: 10;
+
+    border-radius: 1rem;
+    align-items: center;
+    translate: -2%;
+    max-width: 27rem;
+
+}
+
+
+.images { 
+
+    width: 6rem; 
+    position:absolute; 
+    left: 12.5rem; 
+    bottom: 0px; 
+    right: 12.5rem; 
+    top: -3.125rem; 
+    z-index: 10;
+
 }
