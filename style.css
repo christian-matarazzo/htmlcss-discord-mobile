@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body {
+    width: 512px;
+    height: 512px;
+    background-color: rgba(17, 17, 118, 0.952);
+}
+
+.banner {
+  width: 512px;
+
+  
+}
+
+.banner img {
+
+    width: 512px;
+}
+
+.Title {
+    margin-top: 4rem;
+    font-family: Sigmar;
+    text-align: center;
+    line-height: 0.9;
+    color:rgb(239, 231, 231)
+}
+
+p{
+    font-family: DM Sans;
+    margin-top: 1rem;
+    line-height: 1.3;
+    color:white
+}
+
+.Download {
+    border: none;
+    padding:1rem;
+    margin-top: 1rem;
+    border-radius: 14px;
+    width: 20rem;
+    font-family: DM Sans;
+}
+
+
+.Discord {
+    border: none;
+    padding:1rem;
+    margin-top: 1rem;
+    border-radius: 14px;
+    width: 20rem;
+    font-family: DM Sans;
+    background-color: rgb(86, 77, 215);
+    color: white;
+}
+
